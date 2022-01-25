@@ -33,11 +33,13 @@ p {
     border-top: 0;
     border-left: 0;
     border-right: 0;
+    padding: 0%;
 }
 
-.form_big {
-    height: 20px;
-}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black !important;
+    
+  }
 
 .btn_send {
     background-color: #1ABC9C;
@@ -55,27 +57,35 @@ p {
     color: #1ABC9C;
 }
 
-.icon_footer {
-    border-radius: 100px;
-    border: 1px solid white;
-    padding: 10px !important;
-
-}
 
 .social i {
     display: inline-block;
     margin: 0 2px;
-    padding: 10px;
+    padding: 12px;
     border: 1px solid white;
     border-radius: 50%;
     font-size: 12px;
-  }
+}
+
+.fa-facebook-f {
+    padding: 12px 15px !important;
+} 
+
+.fa-google-plus-g {
+    padding: 12px 11px !important;
+} 
+
+.fa-linkedin-in {
+    padding: 12px 13px !important;
+} 
   
-  .social a {
+.social a {
     color: white;
-  }
+}
   
-  .social a:hover i {
+.social a:hover i {
     color: #2C3E50;
     background-color: white;
-  }
+} 
+
+
