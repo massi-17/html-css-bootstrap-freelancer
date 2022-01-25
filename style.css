@@ -2,7 +2,7 @@
     background-color: #2C3E50;
 }
 
-.fs_nav {
+.fs_12px {
     font-size: 12px;
 }
 
@@ -10,7 +10,29 @@ a, a:hover, a:focus {
     text-decoration: none;
 }
 
+p {
+   
+    margin: 0 !important;
+}
+
 .bg_section {
     background-color: #1ABC9C;
 }
 
+.mt_1rem {
+    margin-top: 1rem;
+}
+
+.ps_15p {
+    padding-left: 15%;
+    padding-right: 0 !important;
+}
+
+.pe_15p {
+    padding-right: 15%;   
+    padding-left: 2% !important; 
+}
+
+.debug {
+    border: 2px solid red;
+}
