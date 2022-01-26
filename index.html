@@ -14,30 +14,72 @@
 <body>
     <header class="main-header bg_dark">
         <div class="container">
-            <div class="row justify-content-around align-items-center fw-bold text-uppercase text-light"">
+            <div class="row justify-content-between align-items-center fw-bold text-uppercase"">
                 <div class="col-auto">
-                    <div class="fs_12px">Start Bootstrap</div>
+                    <div class="fs-4 text-light">Start Bootstrap</div>
                 </div>
 
-                <nav class="col-auto">
-                    <ul class="list-inline fs_12px">
+                <div class="col-auto">
+
+
+
+                    <ul class="list-inline fs_12px nav_desktop">
                         <li class="list-inline-item pe-3">
-                            <a href="#" class="link-light">
+                            <a href="#portfolio" class="link-light">
                                 Portfolio
                             </a>
                         </li>
                         <li class="list-inline-item pe-3">
-                            <a href="#" class="link-light">
+                            <a href="#about" class="link-light">
                                 About
                             </a>
                         </li>
                         <li class="list-inline-item pe-3">
-                            <a href="#" class="link-light">
+                            <a href="#contact" class="link-light">
                                 Contact
                             </a>
                         </li>
                     </ul>
-                </nav>
+
+                    <div class="burger_hidden">
+                    <nav class="navbar navbar-dark nav_style d-flex justify-content-end">
+                        
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                          <div class="offcanvas-header offcanvas_header">
+                            <h5 class="offcanvas-title fw-bold" id="offcanvasNavbarLabel">START BOOTSTRAP</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          </div>
+
+                          <div class="offcanvas-body bg_dark">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                              <li class="nav-item">
+                                <a class="link_burger" aria-current="page" href="#portfolio">PORTFOLIO</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="link_burger" aria-current="page" href="#about">ABOUT</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="link_burger" aria-current="page" href="#contact">CONTACT</a>
+                              </li>
+                              
+                              
+                                </ul>
+                              </li>
+                            </ul>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </nav>
+                </div>
+                    
+                    
+
+                </div>
             </div>
         </div>
     </header>
@@ -258,6 +300,7 @@
         </div>
     </section>
 </footer>
-    
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

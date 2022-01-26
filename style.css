@@ -56,14 +56,6 @@
 }
 
 
-/* .portfolio_card {
-    min-width: 360px;
-    min-height: 260px;
-    background-color: yellow;
-    border-radius: 5px;
-} */
-
-
 .min_height {
     min-height: 200px;
 }
@@ -148,9 +140,31 @@ a, a:hover, a:focus {
     text-decoration: none;
 }
 
-nav ul {
+.nav_desktop {
     margin: 0; 
-    padding:0
+    display: none;
+}
+
+.nav_style {
+    color: black;
+}
+
+.link_nav {
+    color: black !important;
+    
+}
+
+.link_burger {
+    color: white;
+}
+
+.link_burger:hover {
+    color: #1ABC9C;
+}
+
+.offcanvas_header {
+    background-color: #1ABC9C;
+    color: white;
 }
 
 
@@ -230,6 +244,15 @@ nav ul {
 
 /* MEDIUM - TABLET */
 @media all and (min-width: 769px) {
+    .nav_desktop { 
+        display: block;
+    }
+
+    .burger_hidden {
+        display: none !important;
+    }
+
+
     .about_par {
         column-count: 2;
         column-gap: 1.5rem;
@@ -248,5 +271,6 @@ nav ul {
         display: block;
     }
 
+    
 }
 
