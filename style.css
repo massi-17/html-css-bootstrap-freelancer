@@ -24,6 +24,36 @@
     min-height: 590px;
 }
 
+.avatar {
+    width: 215px;
+    padding-bottom: 10px;
+}
+
+.fa-star {
+    margin: 0 0px;
+}
+
+.divider {
+    font-size: 2.5rem;
+  }
+  
+.divider::before, .divider::after {
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 15%;
+    position: relative;
+    top: -10px;
+    border-radius: 100px;
+}
+  
+.black_star::before, .black_star::after {
+    background-color: #000;
+}
+  
+.white_star::before, .white_star::after {
+    background-color: #FFF;
+}
 
 
 .portfolio_card {
@@ -147,6 +177,10 @@ nav ul {
     .about_par {
         column-count: 2;
         column-gap: 1.5rem;
+    }
+
+    .fa-star {
+        margin: 0 10px;
     }
 
 
