@@ -1,6 +1,63 @@
-.bg_nav {
+
+.bg_dark {
     background-color: #2C3E50;
 }
+
+.bg_light {
+    background-color: #1ABC9C;
+
+}
+
+.bg_dark2 {
+    background-color: #3A546D;
+}
+
+.main-header {
+    
+}
+
+.main-header .row {
+    min-height: 90px;
+}
+
+#jumbo {
+    min-height: 590px;
+}
+
+
+
+.portfolio_card {
+    min-height: 260px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+
+
+
+.about_par {
+    column-count: 2;
+    column-gap: 1.5rem;
+}
+
+#about .cointainer, #contact .container {
+    max-width: 985px;
+}
+
+
+#contact {
+    min-height: 400;
+}
+
+#footer1 .row {
+    min-height: 230px;
+}
+
+#footer2 .row {
+    min-height: 110px;
+}
+
+
 
 .fs_12px {
     font-size: 12px;
@@ -10,23 +67,26 @@ a, a:hover, a:focus {
     text-decoration: none;
 }
 
-p {
-   
-    margin: 0 !important;
+nav ul {
+    margin: 0; 
+    padding:0
 }
 
-.bg_section {
-    background-color: #1ABC9C;
+
+
+#footer2 h6 {
+    margin: 0; 
+    padding:0
 }
 
-.mt_1rem {
-    margin-top: 1rem;
-}
+
+
+
 
 
 
 .debug {
-    border: 2px solid red;
+    border: 2px solid black;
 }
 
 .form_ {
@@ -36,7 +96,7 @@ p {
     padding: 0%;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder {
     color: black !important;
     
   }
@@ -45,13 +105,7 @@ p {
     background-color: #1ABC9C;
 }
 
-.bg_footer1 {
-    background-color: #3A546D;
-}
 
-.bg_footer2 {
-    background-color: #2C3E50;
-}
 
 .link_footer {
     color: #1ABC9C;
@@ -89,3 +143,9 @@ p {
 } 
 
 
+@media all and (min-width: 769px) {
+    .about_par {
+        column-count: 2;
+        column-gap: 1.5rem;
+    }
+}
