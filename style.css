@@ -175,9 +175,10 @@ a, a:hover, a:focus {
 }
 
 
-
-
-
+.custom-toggler.navbar-toggler {
+    border-color: white;
+    
+}
 
 
 .debug {
@@ -199,7 +200,6 @@ a, a:hover, a:focus {
 .btn_send {
     background-color: #1ABC9C;
 }
-
 
 
 .link_footer {
