@@ -1,91 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Freelancer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 </head>
+
 <body>
+
+
     <header class="main-header bg_dark">
+
         <div class="container">
+
             <div class="row justify-content-between align-items-center fw-bold text-uppercase"">
-                <div class="col-auto">
-                    <div class="fs-4 text-light">Start Bootstrap</div>
-                </div>
 
-                <div class="col-auto">
+                <div class=" col-auto">
+                <div class="fs-4 text-light">Start Bootstrap</div>
+            </div>
 
+            <!-- NAV ESTESI -->
+            <div class="col-auto">
+                <ul class="list-inline fs_12px nav_desktop">
+                    <li class="list-inline-item pe-3">
+                        <a href="#portfolio" class="link-light">
+                            Portfolio
+                        </a>
+                    </li>
+                    <li class="list-inline-item pe-3">
+                        <a href="#about" class="link-light">
+                            About
+                        </a>
+                    </li>
+                    <li class="list-inline-item pe-3">
+                        <a href="#contact" class="link-light">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
 
-
-                    <ul class="list-inline fs_12px nav_desktop">
-                        <li class="list-inline-item pe-3">
-                            <a href="#portfolio" class="link-light">
-                                Portfolio
-                            </a>
-                        </li>
-                        <li class="list-inline-item pe-3">
-                            <a href="#about" class="link-light">
-                                About
-                            </a>
-                        </li>
-                        <li class="list-inline-item pe-3">
-                            <a href="#contact" class="link-light">
-                                Contact
-                            </a>
-                        </li>
-                    </ul>
-
-                    <div class="burger_hidden">
+                <!-- NAV BURGER -->
+                <div class="burger_hidden">
                     <nav class="navbar navbar-dark nav_style d-flex justify-content-end">
-                        
-                        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                          <span class="navbar-toggler-icon "></span>
+
+                        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <span class="navbar-toggler-icon "></span>
                         </button>
 
-                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                          <div class="offcanvas-header offcanvas_header">
-                            <h5 class="offcanvas-title fw-bold" id="offcanvasNavbarLabel">START BOOTSTRAP</h5>
-                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                          </div>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                            aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header offcanvas_header">
+                                <h5 class="offcanvas-title fw-bold" id="offcanvasNavbarLabel">START BOOTSTRAP</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
 
-                          <div class="offcanvas-body bg_dark">
-                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                              <li class="nav-item">
-                                <a class="link_burger" aria-current="page" href="#portfolio">PORTFOLIO</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="link_burger" aria-current="page" href="#about">ABOUT</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="link_burger" aria-current="page" href="#contact">CONTACT</a>
-                              </li>
-                              
-                              
+                            <div class="offcanvas-body bg_light">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="link_burger" aria-current="page" href="#portfolio">PORTFOLIO</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="link_burger" aria-current="page" href="#about">ABOUT</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="link_burger" aria-current="page" href="#contact">CONTACT</a>
+                                    </li>
                                 </ul>
-                              </li>
-                            </ul>
-                            
-                          </div>
+                            </div>
                         </div>
-                      </div>
                     </nav>
                 </div>
-                    
-                    
 
-                </div>
             </div>
+        </div>
         </div>
     </header>
 
+
+
     <main>
 
+        <!-- JUMBOTRON -->
         <section id="jumbo" class="bg_light py-4 d-flex align-items-center justify-content-center">
             <div class="container text-center text-uppercase text-light">
                 <div class="row align-items-center">
@@ -93,80 +100,76 @@
 
                         <img src="img/avatar.svg" class="avatar">
                         <h1 class="">start bootstrap</h1>
-                    
+
                         <div class="divider white_star d-block my-2">
                             <i class="fas fa-star fa-xs"></i>
                         </div>
                         <p class="fs_12px">graphic artist - web designer - illustrator</p>
-                        
+
                     </div>
                 </div>
             </div>
         </section>
- 
 
+        <!-- PORTFOLIO -->
         <section id="portfolio" class="py-4">
             <div class="container text-center text-uppercase text-dark">
                 <div class="container">
                     <div class="row>
-                        <div class="col-12">
-                            <h2 class="">portfolio</h2>
-                            <div class="divider black_star d-block my-2">
-                                <i class="fas fa-star fa-xs"></i>
-                            </div>
-                            
+                        <div class=" col-12">
+                        <h2 class="">portfolio</h2>
+                        <div class="divider black_star d-block my-2">
+                            <i class="fas fa-star fa-xs"></i>
                         </div>
-                    </div>
-                    <div class="row g-4">
-                        <div class="col-12 col-sm-6 col-lg-4 min_height">
-                            
-                                <div class="image-container">
-                                    <img src="img/cabin.png" />
-                                    <div class="after"><i class="fas fa-plus"></i></div>
-                                </div>
-                           
-                        </div>
-                        <div class="col-12 col-sm-6 col-lg-4 min_height">
-                            <div class="image-container">
-                                <img src="img/cake.png" />
-                                <div class="after"><i class="fas fa-plus"></i></div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-lg-4 min_height">
-                            <div class="image-container">
-                                <img src="img/circus.png" />
-                                <div class="after"><i class="fas fa-plus"></i></div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-lg-4 min_height">
-                            <div class="image-container">
-                                <img src="img/game.png" />
-                                <div class="after"><i class="fas fa-plus"></i></div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-lg-4 min_height">
-                            <div class="image-container">
-                                <img src="img/safe.png" />
-                                <div class="after"><i class="fas fa-plus"></i></div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-lg-4 min_height">
-                            <div class="image-container mb-4">
-                                <img src="img/submarine.png" />
-                                <div class="after"><i class="fas fa-plus"></i></div>
-                            </div>
-                        </div>
-
-                        
-
-
-
                     </div>
                 </div>
+
+                <div class="row g-4">
+                    <div class="col-12 col-sm-6 col-lg-4 min_height">
+                        <div class="image-container">
+                            <img src="img/cabin.png" />
+                            <div class="after"><i class="fas fa-plus"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 min_height">
+                        <div class="image-container">
+                            <img src="img/cake.png" />
+                            <div class="after"><i class="fas fa-plus"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 min_height">
+                        <div class="image-container">
+                            <img src="img/circus.png" />
+                            <div class="after"><i class="fas fa-plus"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 min_height">
+                        <div class="image-container">
+                            <img src="img/game.png" />
+                            <div class="after"><i class="fas fa-plus"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 min_height">
+                        <div class="image-container">
+                            <img src="img/safe.png" />
+                            <div class="after"><i class="fas fa-plus"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 min_height">
+                        <div class="image-container mb-4">
+                            <img src="img/submarine.png" />
+                            <div class="after"><i class="fas fa-plus"></i></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
             </div>
         </section>
 
-         <section id="about" class="bg_light py-5">
+        <!-- ABOUT -->
+        <section id="about" class="bg_light py-5">
             <div class="container text-center text-light">
                 <div class="row">
                     <div class="col-12 col-lg-12">
@@ -176,24 +179,32 @@
                         </div>
                     </div>
                 </div>
-                    <div class="row">
-                        <div class="col-12"></div>
-                            <p class="about_par fs_12px">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quam corporis iusto, ipsam deserunt aspernatur itaque. Asperiores, a nostrum vero quisquam doloremque reprehenderit veniam neque iste ducimus nesciunt natus, exercitationem, omnis commodi. Enim corporis vitae laboriosam quo, obcaecati et ex eum fugit maiores necessitatibus tempore ab illum voluptas, nesciunt modi. Animi voluptate, magnam atque quos dolorum nesciunt ut fugit quaerat!  Enim corporis vitae laboriosam quo, obcaecati et ex eum fugit maiores necessitatibus tempore ab illum voluptas, nesciunt modi. Animi voluptate, magnam atque quos dolorum nesciunt ut fugit quaerat!                         
-                            </p>
-                        </div>
-
+                <div class="row">
+                    <div class="col-12"></div>
+                        <p class="about_par fs_12px">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quam corporis iusto, ipsam
+                            deserunt aspernatur itaque. Asperiores, a nostrum vero quisquam doloremque reprehenderit veniam
+                            neque iste ducimus nesciunt natus, exercitationem, omnis commodi. Enim corporis vitae laboriosam
+                            quo, obcaecati et ex eum fugit maiores necessitatibus tempore ab illum voluptas, nesciunt modi.
+                            Animi voluptate, magnam atque quos dolorum nesciunt ut fugit quaerat! Enim corporis vitae
+                            laboriosam quo, obcaecati et ex eum fugit maiores necessitatibus tempore ab illum voluptas,
+                            nesciunt modi. Animi voluptate, magnam atque quos dolorum nesciunt ut fugit quaerat!
+                        </p>
                     </div>
-                
-                    
-                        <div class="col-12 text-center pt-5">
-                            <button class="btn btn-outline-light">
-                                <i class="fas fa-download"></i> Download</button>
-                        </div>
-                    
-            </div>
-        </section> 
+                </div>
 
+            
+
+
+                <div class="col-12 text-center pt-5">
+                <button class="btn btn-outline-light">
+                    <i class="fas fa-download"></i> Download</button>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CONTACT -->
         <section id="contact" class="">
             <div class="container text-center text-dark py-5">
                 <div class="row">
@@ -210,49 +221,51 @@
 
                         <form class="px-5">
                             <div class="mb-3 text-start">
-                            
-                                <input type="name" class="form-control form_" placeholder="Name">                 
+
+                                <input type="name" class="form-control form_" placeholder="Name">
                             </div>
 
                             <div class="mb-3 text-start">
-                            
-                                <input type="email" class="form-control form_" placeholder="Email Address">                 
+
+                                <input type="email" class="form-control form_" placeholder="Email Address">
                             </div>
 
                             <div class="mb-3 text-start">
-                            
-                                <input type="phone" class="form-control form_" placeholder="Phone Number">                 
+
+                                <input type="phone" class="form-control form_" placeholder="Phone Number">
                             </div>
 
                             <div class="mb-3 text-start">
-                            
+
                                 <label>Message</label>
-                                <textarea class="form-control form_" rows="3"></textarea>              
+                                <textarea class="form-control form_" rows="3"></textarea>
                             </div>
 
-                            
+
                             <div class="text-start">
-                                
+
                                 <button type="button" class="btn btn_send text-light">Send</button>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
-        </section> 
-</main> 
+        </section>
+    </main>
 
-<footer>
-    <section class="bg_dark2">
-        <div id="footer1" class="container text-center text-light">
-            
+    <!-- FOOTER -->
+    <footer>
+        <section class="bg_dark2">
+            <div id="footer1" class="container text-center text-light">
+
                 <div class="row align-items-baseline align-content-center justify-content-center g-2">
                     <div class="col-12 col-lg-4">
                         <h5 class="text-uppercase mt-4">location</h5>
                         <p class="mb-4">2215 John Daniel Drive Clark, MO
-                        <span class="cap">54243</span></p>
+                            <span class="cap">54243</span>
+                        </p>
                     </div>
-                    
+
                     <div class="col-12 col-lg-4">
                         <h5 class="text-uppercase">around the web</h5>
                         <div class="social mb-4">
@@ -272,35 +285,39 @@
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
 
-                            
+
                         </div>
                     </div>
 
                     <div class="col-12 col-lg-4 gy-3">
                         <h5 class="text-uppercase">about freelancer</h6>
-                        <p class=" mb-4">Freelance is a free to use, open source Bootstrap theme created by <a href="#" class="link_footer">Start Bootstrap</a>.</p>
+                            <p class=" mb-4">Freelance is a free to use, open source Bootstrap theme created by <a
+                                    href="#" class="link_footer">Start Bootstrap</a>.</p>
                     </div>
                 </div>
 
-            
-            
-        </div>
-    </section>
 
-    <section class="bg_dark">
-        <div id="footer2" class="container text-center text-light">
-            
+
+            </div>
+        </section>
+
+        <section class="bg_dark">
+            <div id="footer2" class="container text-center text-light">
+
 
                 <div class="row justify-content-center align-items-center">
                     <div class="col-12">
                         <h6>Copyright &copy; Your Website 2022</h6>
                     </div>
                 </div>
-            
-        </div>
-    </section>
-</footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
