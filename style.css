@@ -64,19 +64,23 @@
 } */
 
 
+.min_height {
+    min-height: 200px;
+}
+
 
 .image-container img {
 
-    width: 360px;
-    height: 260px;
+    width: 100%;
+    object-fit: cover;
     
     border-radius: 5px;
 }
 
 .image-container {
     position: relative;
-    width: 360px;
-    height: 260px;
+    width: 100%;
+    
     padding: 0;
     
 }
