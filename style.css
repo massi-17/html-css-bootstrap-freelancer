@@ -35,10 +35,6 @@
 
 
 
-.about_par {
-    column-count: 2;
-    column-gap: 1.5rem;
-}
 
 #about .cointainer, #contact .container {
     max-width: 985px;
@@ -143,9 +139,23 @@ nav ul {
 } 
 
 
+
+
+
+/* MEDIUM - TABLET */
 @media all and (min-width: 769px) {
     .about_par {
         column-count: 2;
         column-gap: 1.5rem;
     }
+
+
+}
+
+/* LARGE - DESKTOP */
+@media all and (min-width: 992px) {
+    .cap {
+        display: block;
+    }
+
 }
